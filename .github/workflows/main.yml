@@ -1,7 +1,7 @@
 name: A workflow for my Hello World file
 on:
   pull_request:
-  types: [synchronize]
+  types: synchronize
   branches: main
 jobs:
   build:
